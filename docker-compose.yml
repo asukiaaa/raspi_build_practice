@@ -1,0 +1,7 @@
+version: '3'
+services:
+  pi:
+    image: nomaddo/cross-rpi
+    command: >
+      bash -c "ls
+      && git --help"
